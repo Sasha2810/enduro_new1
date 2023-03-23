@@ -1,0 +1,229 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+.first-window {
+    color: white    ;
+    background: url("https://enduroriders.ru/wp-content/uploads/2020/01/ready_3.jpg") no-repeat 30% 0% / cover;
+}
+
+.burger>span {
+    display: block;
+    cursor: pointer;
+    width: 50px;
+    height: 5px;
+    border-radius: 50px;
+    margin: 4px 0;
+    background-color: rgb(52, 54, 57);
+}
+
+.left-menu {
+    display: flex;
+    flex-direction: column;
+    width: 50px;
+}
+
+.menu .soc_seti-img img {
+    width: 55px;
+}
+
+.soc_seti-img {
+    display: flex;
+    margin: 20px;
+}
+
+.soc-seti {
+    margin-top: 540px;
+}
+
+.burger {
+    display: none;
+}
+
+.header-info {
+    text-decoration: none;
+    list-style: none;
+}
+
+.header-ul li {
+    font-size: 25px;
+}
+
+.header-ul {
+    display: flex;
+    flex-direction: row;
+    float: right;
+    margin: 20px 20px;
+}
+
+li {
+    list-style-type: none;
+}
+
+.main-li {
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    margin: 20px 20px;
+    font-size: 18px;
+    color: black;
+    transition: all 200ms ease;
+}
+
+.main-ul:hover {
+    content: '';
+    position: absolute;
+}
+
+.h1-words {
+    position: absolute;
+    top: 17%;
+    left: 10%;
+    font-size: 70px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.span-words {
+    position: absolute;
+    top: 0;
+}
+
+
+/* .h1-words::after {
+    content: '';
+    background-image: url("https://cdn-icons-png.flaticon.com/512/6797/6797509.png");
+    position: absolute;
+    top: 30px;
+    width: 100px;
+    height: 100px;
+    background-size: 100px 100px;
+    rotate: 90deg;
+} */
+
+.logo-img {
+    float: left;
+    width: 75px;
+    margin: 20px 10px;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+    width: 60px;
+}
+
+.h-logo {
+    margin: 44px 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+}
+
+.button-message {
+    position: absolute;
+    bottom: 68%;
+    left: 14%
+}
+
+.send-message {
+    background: rgb(91, 84, 84);
+    border-radius: 4px;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 14px;
+    padding: 15px 5px;
+    text-decoration: none;
+}
+
+.send-message:hover {
+    background: linear-gradient(to bottom, #414952 5%, #30363d 100%);
+    background-color: #414952;
+}
+
+.send-message-h {
+    font-size: 25px;
+}
+
+.pluses-window {
+    display: flex;
+}
+
+.pluses {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+}
+
+.clients {
+    padding: 65px 100px;
+    flex-direction: column;
+}
+
+.h1-p1 {
+    font-size: 24px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+}
+
+.img-p1 {
+    display: flex;
+    width: 120px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    text-align: center;
+}
+
+.first {
+    margin-left: 55px;
+}
+
+
+
+.clients h1 {
+    text-align: center;
+}
+
+.counter {
+    animation-duration: 1s;
+    animation-delay: 0s;
+    text-align: center;
+    font-family: 'Montserrat';
+    font-size: 35px;
+}
+
+.btn-wrapper {
+    position: absolute;
+    top: 23%;
+    left: 10%;
+}
+
+.btn1-ar {
+    rotate: 180deg;
+    left: 0;
+}
+
+.btn2-ar {
+    right: 70%;
+}
+
+.pluses-window {
+    background-color: rgb(79, 72, 69);
+}
+
+.active2 {
+    display: block;
+    display: flex;
+    flex-direction: row;
+    float: right;
+    margin: 5px 20px;
+}
+

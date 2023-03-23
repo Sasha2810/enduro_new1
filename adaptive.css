@@ -1,0 +1,188 @@
+    @media (max-width: 800px) {
+        .header-ul {
+            display: none;
+        }
+        .burger {
+            display: block;
+            z-index: 31;
+            float: right;
+            width: 70px;
+            margin: 40px 20px;
+            color: rgb(91, 84, 84);
+        }
+        .burger>span {
+            background-color: rgb(91, 84, 84);
+        }
+        .active1 {
+            position: absolute;
+            top: 0;
+            right: 0;
+        }
+        .active1 span:nth-child(1) {
+            transform-origin: left bottom;
+            transform: translate(6px, -7px) rotate(45deg);
+        }
+        .active1 span:nth-child(2) {
+            transform: scale(0);
+        }
+        .active1 span:nth-child(3) {
+            transform-origin: right bottom;
+            transform: translate(-3px, -26px) rotate(-45deg);
+        }
+        header {
+            width: 100%;
+        }
+        .first-window {
+            background: url("https://sportishka.com/uploads/posts/2022-11/thumbs/1667555407_9-sportishka-com-p-enduro-moped-vkontakte-9.jpg") no-repeat 13% 0 / cover;
+            background-size: cover;
+        }
+        .first-words {
+            color: rgb(84, 88, 92);
+        }
+        .h1-words {
+            font-size: 37px;
+        }
+        .span-words {
+            display: block;
+            top: 40%;
+            left: 50%;
+        }
+        .pluses {
+            display: flex;
+            flex-direction: column;
+            margin: auto;
+            padding: 0px;
+        }
+        .clients {
+            display: flex;
+            padding: 20px 20px;
+            justify-content: center;
+            align-items: center;
+        }
+        .clients:nth-child(1) {
+            padding-top: 70px;
+        }
+        /* }
+        .clients:nth-child(3) {
+            margin-right: 50px;
+        } */
+
+        .h1-p1 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+    
+    @media (max-width: 1450px) {
+        .h1-words {
+            font-size: 43px;
+        }
+        .span-h1 {
+            font-size: 30px;
+        }
+        .main-li {
+            font-size: 15px;
+        }
+    }
+    
+    @media (max-width: 950px) {
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        img {
+            width: auto;
+            max-width: 100%;
+        }
+        .h1-words {
+            margin-top: 30px;
+            font-size: 37px;
+          
+        }
+        .span-h1 {
+            font-size: 27px;
+        }
+        .header-ul {
+            display: flex;
+            margin: 0px -10px;
+        }
+        .header-ul li {
+            display: flex;
+            padding: 7px 20px;
+            font-size: 25px;
+            font-family: 'Roboto', serif;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-transform: uppercase;
+            color: rgb(91, 84, 84);
+        }
+        .header-ul:nth-child(1) {
+            padding-top: 80px;
+        }
+        .h-logo {
+            font-size: 20px;
+            color: rgb(107, 119, 131);
+        }
+        .header-ul {
+            display: none;
+            position: fixed;
+            background-color: rgb(107, 119, 131);;
+            height: 100%;
+            width: 110%;    
+            z-index: 20;
+            margin-bottom: 110px;
+        }
+        /* .soc-seti-mobile {
+            display: none;
+            position: absolute;
+            width: 10px;
+            padding: 0px 20px;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            text-transform: uppercase;
+            color: rgb(91, 84, 84);
+        } */
+        .first-window::after {
+            content: "";
+            position: absolute;
+            left: 0;
+            width: 100%;
+            height: 148px;
+            top: 700px;
+            background: url(img/bg_promo.png) no-repeat 50% 0 / cover;
+        }
+        
+        .button-message {
+            position: absolute;
+            bottom: 45%;
+            left: 7%;
+        }
+        .send-message {
+            background: rgb(91, 84, 84);
+            border-radius: 4px;
+            display: inline-block;
+            cursor: pointer;
+            color: #ffffff;
+            font-family: Arial;
+            font-size: 12px;
+            padding: 10px 3px;
+            text-decoration: none;
+        }
+        
+        .img-p1 .first {
+            padding-top: 100px;
+        }
+        .img-p1 {
+            display: flex;
+            width: 120px;
+            padding: 10px;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+        
+    }
